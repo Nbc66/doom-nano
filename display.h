@@ -2,7 +2,6 @@
 todo: Moving this to CPP looks like it takes more Flash storage. Figure out why.
 */
 
-#include <Wire.h>
 #include "SSD1306.h"
 #include "constants.h"
 
