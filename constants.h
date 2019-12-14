@@ -9,8 +9,14 @@
 #define K_DOWN              3
 #define K_FIRE              10
 
+// SNES Controller
+constexpr uint8_t DATA_CLOCK   = 11;
+constexpr uint8_t DATA_LATCH   = 12;
+constexpr uint8_t DATA_SERIAL  = 13;
+
 // GFX settings
 #define OPTIMIZE_SSD1306                // Optimizations for SSD1366 displays
+#define SNES_CONTROLLER
 
 #define FRAME_TIME          66.666666   // Desired time per frame in ms (66.666666 is ~15 fps)
 #define RES_DIVIDER         2           // Higher values will result in lower horizontal resolution when rasterize and lower process and memory usage
