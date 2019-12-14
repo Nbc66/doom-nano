@@ -61,4 +61,10 @@
 #define ENEMY_FIREBALL_DAMAGE 20
 #define GUN_MAX_DAMAGE        15
 
+// display
+constexpr uint8_t SCREEN_WIDTH     =  128;
+constexpr uint8_t SCREEN_HEIGHT    =  64;
+constexpr uint8_t HALF_WIDTH       =  64;
+constexpr uint8_t RENDER_HEIGHT    =  56;         // raycaster working height (rest is for hud)
+
 #endif
